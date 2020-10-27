@@ -1,0 +1,30 @@
+using System;
+
+namespace Methods_Exercise
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("What is your name?");
+            string userName = Console.ReadLine();
+
+            Console.WriteLine("How old are you?");
+            string age = Console.ReadLine();
+
+            Console.WriteLine("What is your favorite animal?");
+            string animal = Console.ReadLine();
+
+            Console.WriteLine("What is the name of your animal?");
+            string animalName = Console.ReadLine();
+
+            Console.WriteLine("What is your favorite color?");
+            string favoriteColor = Console.ReadLine();
+
+            Console.WriteLine($"There was a man named {userName} he was {age} years old");
+
+            Console.WriteLine($"He bought a {favoriteColor} {animal} from the circus and its name was {animalName}");
+
+            Console.WriteLine($"{userName} loved to ride his {favoriteColor} {animal} through the city streets");
+
+            Console.WriteLine($"The {animal} resented {userName} for this and decided to leave {userName} and return to the circus");
